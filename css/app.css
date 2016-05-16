@@ -1,15 +1,7 @@
-#test {
-	background-color: red;
-	height: 342px;
-}
-
-
 
 
 .fade {
-/*  margin: 50px;
-  padding: 50px;*/
-  /*background-color: lightgreen;*/
+
   opacity: 0;
 }
 .desktopWordmark {
@@ -18,11 +10,7 @@
 }
 
 
-
-
-
 .condensed-text {
-	/*font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:400; font-stretch:condensed;*/
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
@@ -822,6 +810,11 @@ body {
 		position: initial;
 		max-width: 235px;
 	}
+	#retailLocations p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
 
 }
 
