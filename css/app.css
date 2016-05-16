@@ -1,0 +1,830 @@
+#test {
+	background-color: red;
+	height: 342px;
+}
+
+
+
+
+.fade {
+/*  margin: 50px;
+  padding: 50px;*/
+  /*background-color: lightgreen;*/
+  opacity: 0;
+}
+.desktopWordmark {
+	height: 40px;
+	margin-left: 30px;
+}
+
+
+
+
+
+.condensed-text {
+	/*font-family: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight:400; font-stretch:condensed;*/
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.row {
+	max-width: 80rem;
+}
+
+.no-padding {
+	padding:0;
+}
+body {
+	position: relative;
+}
+
+.white {
+	color: #fff;
+}
+.black {
+	color:#231f20;
+}
+.yellow {
+	color: #ffdd00;
+}
+.red {
+	color: #b01117;
+}
+.blue {
+	color: #0072bc;
+}
+
+.hidden {
+	display: none;
+}
+
+.mainNav {
+	background-color: #b01117;
+	-webkit-box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.23);
+	box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.23);
+}
+.mainNav ul li {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+[data-sticky-container] {
+	background-color: #b01117;
+}
+.sticky.is-anchored {
+	min-height: 58px !important;
+}
+.bg {
+	background-color: #b01117;
+}
+.mainNav a {
+	color: #fff;
+}
+
+.title-bar {
+	width: 100%;
+}
+.title-bar-right {
+	margin-right: 5%;
+}
+
+#logo {
+	position: relative;
+}
+#logo img {
+	position: absolute;
+	top: -20px;
+	left: 80px;
+	z-index: 200;
+}
+
+#heroPanel {
+	background: url(../images/vittorios-hero-image.jpg)center center no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	min-height: 70vh;
+	margin-top: -5px;
+	/*position: relative;*/
+}
+
+#heroCopy {
+	margin-top: 110px;
+	margin-top: 20vh;
+}
+
+#heroCopy > div {
+	margin-right: -20px;
+}
+
+#heroPanel h2 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	color: #ffdd00;
+	font-size: 70px;
+	font-size: 5vw;
+	line-height: 75px;
+	line-height: 5.5vw;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+	margin-top:30px;
+}
+
+#heroPanel h2 .superscript {
+	/*font-size: 45px;*/
+}
+#heroPanel p {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	margin-top:-5px;
+	line-height: 30px;
+}
+
+#heroPanel img {
+	width: 100%;
+	max-width: 200px;
+}
+
+#aboutVittorios {
+	background: url(../images/grid-pattern.svg) #ffdd00 right center no-repeat;
+	background-size: 8%;
+	color: #231f20;
+	padding: 50px 0;
+}
+
+#aboutVittorios h2 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	font-size: 50px;
+	line-height: 40px;
+	margin-bottom: 22px;
+
+}
+
+#aboutVittorios p {
+	font-size: 14px;
+	line-height: 18px;
+	text-align: justify;
+}
+
+#aboutVittorios p:last-child {
+	margin-bottom: 0;
+}
+.aboutCopy {
+	border-left: 1px solid #231f20;
+	padding-left: 32px;
+	padding-right:10px;
+
+}
+.chefName {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	font-size: 34px !important;
+	line-height: 38px !important;
+	color: #b01117;
+	text-align: left !important;
+	padding-top: 50%;
+}
+
+/* FLAVOURS SECTION ------------------------------*/
+
+#honeyGarlic, #honeyHot {
+	min-height: 600px;
+	min-height: 70vh;
+	background-color: #c8a86d;
+	padding-bottom: 50px;
+}
+
+#honeyGarlic > div, #honeyHot >div {
+	margin-top: 50px;
+}
+
+.bottleImage {
+	width: 100%;
+	max-width: 160px;
+	float: right;
+	margin-right: -25px;
+}
+
+.sauceLogo > img {
+	width: 100%;
+	max-width:310px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.sauce-bee-logo {
+	margin-top: 10px;
+}
+
+.sauce-bee-logo img {
+	width: 100%;
+	max-width: 120px;
+}
+.nutrition {
+	padding: 0 !important;
+}
+.nutrition img {
+	max-width: 200px;
+}
+
+#honeyHot {
+	min-height: 600px;
+	min-height: 70vh;
+	background-color: #fff;
+}
+
+.arrow_box {
+	position: relative;
+	background: #c8a86d;
+}
+.arrow_box:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(200, 168, 109, 0);
+	border-left-color: #c8a86d;
+	border-width: 40px;
+	margin-top: -40px;
+}
+
+
+/* PROUDLY CANADIAN SECTION ------------------------------*/
+
+
+#proudlyCanadian {
+	background-color: #b01117;
+	padding: 25px 0 12px 0;
+}
+
+#proudlyCanadian h3 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: 34px;
+}
+
+#proudlyCanadian p {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	color: #ffdd00;
+	text-transform: uppercase;
+	font-size: 34px;
+	line-height: 36px;
+}
+#proudlyCanadian img {
+	max-width: 35px;
+	margin-left: 5px;
+}
+.canadianIcon {
+	display: inline-block;
+}
+
+.mobile-canadian-icon {
+	display: none;
+	margin-bottom: 10px;
+}
+
+
+
+/* FEATURED RECIPE SECTION ------------------------------*/
+
+
+
+#honeyGarlicRibs {
+	background-color: #c8a86d;
+}
+#honeyBG {
+	background: url(../images/honey-garlic-recipe-image.jpg)#c8a86d left center no-repeat;
+	background-size: cover;
+}
+
+#honeyHotBG {
+	background: url(../images/honey-hot-wings-recipe-image.jpg)#c8a86d left center no-repeat;
+	background-size: cover;
+}
+
+#honeyHotWings {
+	/*background-size: 50% 100%;*/
+	background: url(../images/grid-pattern.svg) #fff right center no-repeat;
+	background-size: 16%;
+/*	color: #231f20;
+	padding: 50px 0;*/
+}
+#honeyGarlicRibs, #honeyHotWings {
+	padding: 0;
+	position: relative;
+}
+#honeyGarlicRibs h4, #honeyHotWings h4 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	font-size: 43px;
+	line-height: 40px;
+	margin-top: 45px;
+	text-transform: uppercase;
+}
+.ingredients, .toPrepare {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	font-size:25px;
+	line-height: 30px;
+	margin: 5px 0 -2px 0;
+}
+
+.recipeCopy {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.signatureRecipe {
+	position: absolute;
+	left: 0;
+	top: 42px;
+	max-width: 230px;
+	z-index: 1;
+}
+
+/* PAPER TOP ----------------------------------*/
+
+#paperContainer {
+	position: relative;
+	top:-30px;
+	z-index: 10px;
+}
+
+.papertop {
+	height: 30px;
+	background: url(../images/paper-top.png)left top repeat-x;
+}
+
+.paperlines {
+	background: url(../images/paper-lines.png)left top repeat;
+}
+
+.testCopy {
+	background-color: red;
+}
+
+
+/* SMALL INGREDIENTS ----------------------------------*/
+
+.smallRecipeTitle, .smallRecipeSubtitle {
+	color: #231f20;
+	text-transform: uppercase;
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	margin-bottom: 5px;
+
+}
+
+.smallRecipeTitle {
+	font-size: 25px;
+	line-height: 26px;
+}
+
+.smallRecipeSubtitle {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.smallRecipeCopy {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	color: #231f20;
+	margin-bottom: 2px;
+}
+
+.recipePadding {
+	margin-top: 30px;
+}
+.relativeImage {
+	position: relative;
+	z-index: 2;
+	height: 280px;
+}
+.relativeImage img {
+	position: absolute;
+	bottom: -12px;
+}
+.relativeImageMobile {
+	display: none;
+	margin: 20px 0;
+}
+
+
+/* RETAIL LOCATIONS YELLOW BAR ----------------------------------*/
+
+
+#retailHeaderBar {
+	background-color: #ffdd00;
+	padding: 15px;
+	margin-top: -30px;
+}
+
+#retailHeaderBar h3 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 34px;
+	line-height: 38px;
+	color: #b01117;
+	margin: 0;
+}
+
+#retailHeaderBar p {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 30px;
+	color: #231f20;
+	margin: 0;
+}
+
+.arrow-box-yellow {
+	position: relative;
+	background: #ffdd00;
+}
+.arrow-box-yellow:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 221, 0, 0);
+	border-top-color: #ffdd00;
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+
+/* RETAIL LOCATIONS LISTINGS ----------------------------------*/
+
+#retailLocations {
+	color: #231f20;
+	padding: 40px 0;
+	background: url(../images/grid-pattern.svg) #fff right top no-repeat;
+	background-size: 8%;
+}
+
+#retailLocations p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 13px;
+	line-height: 14px;
+}
+
+#retailLocations .cityName {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 0;
+}
+
+
+
+/* DISTRIBUTORS ----------------------------------*/
+
+
+#distributors {
+	background-color: #b01117;
+	padding: 15px 0;
+}
+
+#distributors h3 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+	line-height: 30px;
+}
+
+#distributors p {
+	font-size: 16px;
+	line-height: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 5px;
+}
+
+#distributors p .bold {
+	font-weight: bold;
+}
+
+
+/* DISTRIBUTORS ----------------------------------*/
+
+#winners {
+	padding: 30px 0;
+	background-color: #ffdd00;
+}
+
+#winners h3 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	font-size: 34px;
+	line-height: 36px;
+}
+
+#winnerList {
+	padding: 20px 0;
+}
+
+#winnerList:after {
+	content: '';
+	display: block;
+	clear: both;
+	float: none;
+}
+
+#winnerList ul {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#winnerList ul li {
+	float: left;
+	width: 14.28%;
+	border-right: inset 1px solid red;
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	list-style: none;
+	box-shadow: inset -50px 0px 0px -49.25px #000,0px 0px 0px -100px #000;
+}
+
+#winnerList ul li:last-child {
+	box-shadow: none;
+}
+
+#winnerList ul li div {
+	margin: 0 15px;
+}
+
+.excellence img {
+	max-width: 125px;
+}
+
+.excellence p {
+	margin-top: 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.award p {
+	margin-top: 15px;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.award img {
+	max-width: 85px;
+}
+
+
+
+/* FOOTER ----------------------------------*/
+
+
+#footer {
+	/*background-color: #fff;*/
+	padding: 30px 0;
+	background: url(../images/grid-pattern.svg)#fff right top no-repeat;
+	background-size: 8%;
+}
+
+#footer h3 {
+	font-size: 26px;
+	line-height: 30px;
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.footerLogo img {
+	max-width: 170px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.emailIcon {
+	max-width: 40px;
+	margin: 5px auto;
+}
+
+.contactInfo {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	color: #231f20;
+	text-transform: uppercase;
+	font-size: 19px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+.contactInfo i {
+	font-size: 17px;
+	margin-left: 3px;
+}
+
+.copyright {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+
+/* MEDIA QUERIES ------------------------------*/
+
+
+
+
+/* SMALL ---------------------------*/
+
+@media screen and (max-width: 39.9375em) {
+	[data-sticky-container], #mainNav {
+		height: 0;
+		display: none;
+	}
+	#mainNav {
+		display: none;
+	}
+	.chefName {
+		padding: 20px 0 50px;
+		text-align: center !important;
+		font-size: 50px !important;
+		line-height: 56px !important;
+	}
+	.arrow_box:after {
+		display: none;
+	}
+	#aboutVittorios h2 {
+		text-align: center;
+	}
+	.aboutCopy {
+		border-top: 1px solid #231f20;
+		border-left: none;
+		padding: 30px 2rem;
+	}
+	.bottleImage {
+		float: none;
+		margin-right: 0;
+	}
+	.mobile-canadian-icon {
+		display: block;
+	}
+	.canadian-icon {
+		display: none;
+	}
+	#proudlyCanadian h3, #proudlyCanadian h4 {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.recipeImage {
+		width: 100%;
+	}
+	.relativeImage {
+		display: none;
+	}
+	.relativeImageMobile {
+		display: block;
+	}
+	#winnerList ul li {
+		width: 90%;
+		float: none;
+		margin: 0 auto 30px;
+		padding-bottom: 15px;
+		box-shadow: none;
+		border-bottom: 0.5px solid black;
+	}
+	#winnerList ul li:last-child {
+		border-bottom: none;
+	}
+	#footer, #retailLocations, #aboutVittorios {
+		background-image: none;
+	}
+	#retailLocations p {
+		text-align: center;
+	}
+	#winners {
+		padding-bottom: 0;
+	}
+	#honeyHotBG, #honeyBG {
+		height: 300px;
+		width: 100%;
+		background-position: center center;
+	}
+	.recipeCopy:last-child {
+		padding-bottom: 50px;
+	}
+	#heroPanel h2 {
+		font-size: 60px;
+		line-height: 65px;
+	}
+
+	#heroPanel img {
+		margin: 10px auto 30px auto;
+		max-width: 140px;
+	}
+	#heroCopy {
+		margin-top: 0;
+	}
+
+	#logo {
+		width: 100%;
+		margin-top: 90px;
+		text-align: center;
+	}
+	#logo img {
+		margin: 0 auto;
+		position: initial;
+		max-width: 235px;
+	}
+	/*[data-sticky-container] {
+		display: none;
+	}*/
+}
+
+
+/* MEDIUM ONLY ---------------------*/
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	[data-sticky-container], #mainNav {
+		display: none;
+	}
+
+	.chefName {
+		padding-top: 20px;
+		text-align: center !important;
+		font-size: 40px !important;
+		line-height: 50px !important;
+	}
+	.canadian-icon {
+		display: none;
+	}
+	.mobile-canadian-icon {
+		display: block;
+	}
+	#proudlyCanadian h3, #proudlyCanadian h4 {
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.arrow_box:after {
+		display: none;
+	}
+
+	.relativeImage {
+		display: none;
+	}
+	.relativeImageMobile {
+		display: block;
+	}
+	#winnerList ul li {
+		width: 33%;
+		margin-bottom: 20px;
+		box-shadow: none;
+	}
+
+	#winnerList ul li:nth-child(5) {
+		clear: left;
+	}
+
+	#winnerList ul li:first-child {
+		width: 100%;
+	}
+
+	.recipeCopy:last-child {
+		padding-bottom: 50px;
+	}
+
+	.signatureRecipe {
+		max-width: 210px;
+	}
+
+	#heroPanel h2 {
+		font-size: 60px;
+		line-height: 65px;
+	}
+
+	#heroPanel img {
+		margin: 10px auto 30px auto;
+		max-width: 140px;
+	}
+	#heroCopy {
+		margin-top: 0;
+	}
+
+	#logo {
+		width: 100%;
+		margin-top: 90px;
+		text-align: center;
+	}
+	#logo img {
+		margin: 0 auto;
+		position: initial;
+		max-width: 235px;
+	}
+
+}
+
+
+
+
