@@ -61,6 +61,7 @@ body {
 
 [data-sticky-container] {
 	background-color: #b01117;
+	min-height: 58px;
 }
 .sticky.is-anchored {
 	min-height: 58px !important;
@@ -209,6 +210,7 @@ body {
 .sauce-bee-logo img {
 	width: 100%;
 	max-width: 120px;
+	margin-bottom: 20px;
 }
 .nutrition {
 	padding: 0 !important;
@@ -691,6 +693,13 @@ body {
 	}
 	#retailLocations p {
 		text-align: center;
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	.cityName {
+		font-size: 20px !important;
+		line-height: 22px !important;
 	}
 	#winners {
 		padding-bottom: 0;
