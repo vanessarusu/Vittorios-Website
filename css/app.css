@@ -283,6 +283,35 @@ body {
 
 
 
+/* JUGS SECTION ------------------------------*/
+
+#VittoriosJugs {
+	padding: 50px 0 0 0;
+	background: url(../images/grid-pattern.svg) #fff right center no-repeat;
+	background-size: 8%;
+}
+
+#VittoriosJugs h4 {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #231f20;
+	font-size: 60px;
+	line-height: 65px;
+	margin-top: 50px;
+}
+
+.moreInformation {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 34px;
+	line-height: 38px;
+	margin-top: 50px;
+}
+
+.jugsImage img {
+	/*float: right;*/
+}
+
 /* FEATURED RECIPE SECTION ------------------------------*/
 
 
@@ -483,13 +512,12 @@ body {
 
 
 #distributors {
-	background-color: #b01117;
-	padding: 15px 0;
+	background-color: #ffdd00;
+	padding: 25px 0;
 }
 
 #distributors h3 {
 	font-family: 'bebas-bold', Helvetica, sans-serif;
-	color: #fff;
 	text-transform: uppercase;
 	font-size: 28px;
 	line-height: 30px;
@@ -506,8 +534,21 @@ body {
 	font-weight: bold;
 }
 
+#distributors .bottomSpacing {
+	margin-bottom: 15px;
+}
 
-/* DISTRIBUTORS ----------------------------------*/
+#distributors .subtitle {
+	font-family: 'bebas-bold', Helvetica, sans-serif;
+	/*color: #ffdd00;*/
+	text-transform: uppercase;
+	margin-top: 25px;
+	font-size: 34px;
+	line-height: 36px;
+}
+
+
+/* WINNERS ----------------------------------*/
 
 #winners {
 	padding: 30px 0;
@@ -738,6 +779,10 @@ body {
 	/*[data-sticky-container] {
 		display: none;
 	}*/
+
+	#VittoriosJugs {
+		text-align: center;
+	}
 }
 
 
